@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body{
+    background-color:rgb(245, 245, 190);
+}
+
+#cabecalho {
+    background-color:#d4a745d5;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+
+.titulo {
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+
+}
+
+#cabecalho .container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#cabecalho #logo {
+    
+    width: 130px;
+}
+
+#cabecalho #menu ul {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#cabecalho #menu li {
+    list-style: none;
+}
+
+#cabecalho #menu a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: #7a5300;
+    transition: all .2s linear;
+    border-radius: 100px;
+}
+
+#cabecalho #menu a:hover{
+    background-color: #d4a745;
+}
+
+.imagens .container{
+    list-style: none;
+    text-align: center;
+}
+
+#quemsomos img {
+    float: left;
+    margin-right: 30px;
+    height: auto;
+    width: 500px;
+    border-radius: 20px;
+}
+
+#quemsomos {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #7a5300;
+}
+
+#quemsomos p {
+    text-align: justify;
+    margin-bottom: 13px;
+    font-size: 14px;
+    color: #666;
+}
+
+#galeria .container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin-bottom: 50px;
+}
+
+#galeria h2{
+    color: hsl(41, 100%, 22%);
+    font-size: 30px;
+}
+
+#galeria .container img{
+    width: 250px;
+    display: block;
+    transition: all.3s linear;
+}
+
+#galeria .container img:hover{
+    transform: scale(0.9);
+}
+
+#salgados .container ul li{
+    margin-bottom: 10px 10px;
+    list-style: none;
+}
+
+#paodequeijo .container{
+    width: 1000px;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    transition: all .1s linear;
+    display: flex;
+    flex-direction: column;
+}
+
+#paodequeijo li{
+    border-radius: 50px;
+    transform: scale(0.9);
+    list-style: none;
+}
+
+#paodequeijo img:hover{
+    border-radius: 50px;
+    transform: scale(0.9);
+
+}
+
+#paodequeijo .container h3{
+    color: hsl(41, 100%, 22%);
+    font-size: 20px;
+    padding: 10px;
+}
+
+#salgados .titulo{
+    color: hsl(41, 100%, 22%);
+    font-size: 40px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#salgados .container{
+    width: 1000px;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    transition: all .1s linear;
+    display: flex;
+    flex-direction: column;
+}
+
+#salgados .container img:hover{
+    transform: scale(0.8);
+}
+
+#salgados .container h3{
+    color: hsl(41, 100%, 22%);
+    font-size: 20px;
+    padding: 10px;
+}
+
+#salgados .container ul p{
+    font-size: 17px;
+    color:#666;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: justify;
+}
+
+.receitas{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.receitas img:hover{
+    border-radius: 20px;
+    transition: s
+}
+
+#bebidas .container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+#bebidas img:hover{
+    border-radius: 50px;
+    transform: scale(0.9);
+}
+
+#bebidas li{
+    color: hsl(41, 100%, 22%);
+    font-size: 30px;
+    margin: 10px;
+}
+
+#rodape{
+    margin: auto;
+    background-color: #d4a7458c;
+    padding: 30px;
+    color: #666;
+    text-align: center;
+    font-size: 12px;
+}
+
+#rodape a {
+    color: hsla(36, 95%, 36%, 0.747);
+    text-decoration: none;
+}
+#rodape a:hover {
+    text-decoration: underline;
+}
